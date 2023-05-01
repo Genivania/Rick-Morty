@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    background-color: black;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#root {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.historia-container {
+    background-color: blueviolet;
+}
+
+.personagens-container {
+    background-color: blue;
+}
+
+.episodios-container {
+    background-color: red;
+}

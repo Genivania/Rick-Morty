@@ -1,0 +1,32 @@
+.menu{
+    height: 20vh;
+    display: grid;
+    text-transform: uppercase;
+    font-size: 2rem;
+    grid-template-areas:
+    "logo menu";
+}
+
+.menu-container {
+    grid-area: menu;
+    gap: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-container a{
+    color: white;
+    transition: border-color .5s;
+}
+
+.menu-container a:hover{
+    border-bottom: 3px solid rgb(8, 229, 19);
+}
+
+.logo_rick{
+    grid-area: logo;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

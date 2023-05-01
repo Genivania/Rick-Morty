@@ -4,10 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <script src="./js/app.js" defer type="module"></script>
     <title>Rick and Morty</title>
 </head>
 
 <body>
+    <header>
+        <nav class="menu">
+            <nav class="logo_rick">
+                <img src="./img/nome.png" alt="logo">
+            </nav>
+            <nav class="menu-container">
+                <a href="/" onclick="route()">INICIO</a>
+                <a href="/historia" onclick="route()">HISTÓRIA</a>
+                <a href="/personagens" onclick="route()">PERSONAGENS</a>
+                <a href="/episodios" onclick="route()">EPISÓDIOS</a>
+            </nav>
+        </nav>
+    </header>
+    <main id="root"></main>
 
 </body>
 
