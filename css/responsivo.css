@@ -1,0 +1,9 @@
+/* MOBILE */
+@media screen and (max-width:375px){
+
+    .historia-container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

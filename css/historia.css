@@ -1,0 +1,20 @@
+.historia-container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    gap: 64px;
+    grid-template-areas:
+        "img conteudo";
+}
+
+.fundo {
+    grid-area: img;
+    width: 50%;
+    height: 50%;
+    align-items: end;
+}
+
+.historia_description {
+    grid-area: conteudo;
+    font-size: 5vh;
+}

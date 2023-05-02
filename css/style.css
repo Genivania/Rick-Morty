@@ -4,6 +4,7 @@ body {
     grid-template-rows: 150px 1fr;
     background-color: black;
     font-family: 'Shadows Into Light', cursive;
+    color: white;
 }
 
 #root {
@@ -13,11 +14,6 @@ body {
 .container {
     width: 100%;
     height: 100%;
-}
-
-
-.historia-container {
-    background-color: blueviolet;
 }
 
 .personagens-container {
