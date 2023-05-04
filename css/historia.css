@@ -3,18 +3,20 @@
     justify-content: center;
     display: grid;
     gap: 64px;
-    grid-template-areas:
-        "img conteudo";
+    grid-template-areas: "img conteudo";
+    padding: 60px;
 }
 
 .fundo {
     grid-area: img;
-    width: 50%;
+    width: 90%;
     height: 50%;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .historia_description {
     grid-area: conteudo;
     font-size: 5vh;
+    width: 80%;
+    height: 50%;
 }

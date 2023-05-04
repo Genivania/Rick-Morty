@@ -3,8 +3,8 @@
 const routes = {
     '/': '/pages/inicio.html',
     '/historia': '/pages/historia.html',
-    '/personagens': '/pages/personagens.html',
-    '/episodios': '/pages/episodios.html'
+    '/personagens': '/pages/personagens.html'
+
 }
 
 const route = async() => {
@@ -14,7 +14,7 @@ const route = async() => {
     const path = window.location.pathname
     const route = routes[path]
 
-    const response = await fetch(route)
+    const response = await fetch(route);
     const html = await response.text()
 
     document.getElementById('root').innerHTML = html

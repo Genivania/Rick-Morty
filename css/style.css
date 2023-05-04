@@ -2,7 +2,9 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: 150px 1fr;
-    background-color: black;
+    background-image: url(../img/fundo_body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Shadows Into Light', cursive;
     color: white;
 }
@@ -16,10 +18,9 @@ body {
     height: 100%;
 }
 
-.personagens-container {
-    background-color: blue;
-}
-
-.episodios-container {
-    background-color: red;
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1.5px solid #ffffff;
 }
