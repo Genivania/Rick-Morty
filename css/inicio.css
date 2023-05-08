@@ -1,5 +1,4 @@
 .container-card {
-    align-items: end;
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
@@ -13,8 +12,9 @@
     display: flex;
     gap: 16px;
     padding: 26px;
-    align-items: end;
-    /* flex-direction: row; */
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .card {
@@ -37,3 +37,135 @@
 .card:hover {
     box-shadow: 0px 0px 8px rgb(0, 196, 0);
 }
+
+.action-button {
+    font: bold 30px sans-serif;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    user-select: none;
+}
+
+.action-button:hover {
+    color: white;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+
+/* 
+
+.container-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    height: 30vh;
+    margin: 20vh auto;
+}
+
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item {
+    width: 30vw;
+    height: 30vh;
+}
+
+.item:first-child {
+    margin-left: -100%;
+}
+
+.item img {
+    width: 30vw;
+    height: 30vh;
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    user-select: none;
+}
+
+.action-button:hover {
+    color: white;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#previous {
+    border-radius: var(--pattern-border-radius) 0px 0px var(--pattern-border-radius);
+}
+
+#next {
+    border-radius: 0px var(--pattern-border-radius) var(--pattern-border-radius) 0px;
+}
+
+.indicators {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.indicators span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.indicators span:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px black;
+}
+
+.indicators .selected {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px black;
+} */
+
+
+/* .container-slide {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    gap: 16px;
+    padding: 26px;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.inicio-container {
+    display: flex;
+    gap: 16px;
+    padding: 26px;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+} */
